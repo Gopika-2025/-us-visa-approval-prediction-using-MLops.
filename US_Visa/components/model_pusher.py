@@ -1,11 +1,11 @@
 import sys
 
-from us_visa.cloud_storage.aws_storage import SimpleStorageService
-from us_visa.exception import USvisaException
-from us_visa.logger import logging
-from us_visa.entity.artifact_entity import ModelPusherArtifact, ModelEvaluationArtifact
-from us_visa.entity.config_entity import ModelPusherConfig
-from us_visa.entity.s3_estimator import USvisaEstimator
+from US_Visa.cloud_storage.aws_storage import SimpleStorageService
+from US_Visa.exception import USvisaException
+from US_Visa.logger import logging
+from US_Visa.entity.artifact_entity import ModelPusherArtifact, ModelEvaluationArtifact
+from US_Visa.entity.config_entity import ModelPusherConfig
+from US_Visa.entity.s3_estimator import USvisaEstimator
 
 
 class ModelPusher:

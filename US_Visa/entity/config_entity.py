@@ -1,5 +1,5 @@
 import os
-from us_visa.constants import *
+from US_Visa.constants import *
 from dataclasses import dataclass
 from datetime import datetime
 
