@@ -1,3 +1,2 @@
-from US_Visa.pipline.training_pipeline import TrainPipeline
-obj = TrainPipeline()
-obj.run_pipeline()
+from US_Visa.logger import logging
+logging.info("welcome")
